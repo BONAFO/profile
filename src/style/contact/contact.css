@@ -1,0 +1,23 @@
+.contact-cont {
+    display: inline-block;
+    text-align: center;
+    margin: 8vh 0vw;
+    cursor: pointer;
+    /* border: 0.35vw solid #d2d2d26a; */
+    padding: 5vh ;
+    transition: background-color .3s;
+}
+
+.contact-cont:hover {
+    background-color: #b6ddf821;
+}
+
+
+.contact-text {
+    color: #8bb6c9;
+    font-family: 'Pacifico', cursive;
+}
+
+.contact-img {
+border-radius: 50%;
+}

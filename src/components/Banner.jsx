@@ -1,6 +1,8 @@
 import isMobile from "../style effects/isMobile";
 import "../style/banner/banner.css";
 
+
+
 export default function Banner() {
   const bannerItemsResize = () => {
     if (isMobile()) {
@@ -25,6 +27,9 @@ export default function Banner() {
       );
     }
   };
+  const routeStage =
+  process.env.NODE_ENV === "development" ? "" : "/profile/#";
+
   return (
     <div>
       <div className="banner">
@@ -44,7 +49,7 @@ export default function Banner() {
           <button
             className="banner-menu-item t-shadow-basic"
             onClick={() => {
-              window.location.href = "/";
+              window.location.href = routeStage+ "/";
             }}
             style={bannerItemsResize()}
           >
@@ -53,7 +58,7 @@ export default function Banner() {
           <button
             className="banner-menu-item t-shadow-basic"
             onClick={() => {
-              window.location.href = "/about-me";
+              window.location.href = routeStage+ "/about-me";
             }}
             style={bannerItemsResize()}
           >
@@ -62,7 +67,7 @@ export default function Banner() {
           <button
             className="banner-menu-item t-shadow-basic"
             onClick={() => {
-              window.location.href = "/my-proyects";
+              window.location.href = routeStage+ "/my-proyects";
             }}
             style={bannerItemsResize()}
           >
@@ -71,7 +76,7 @@ export default function Banner() {
           <button
             className="banner-menu-item t-shadow-basic"
             onClick={() => {
-              window.location.href = "/contact-me";
+              window.location.href = routeStage+ "/contact-me";
             }}
             style={bannerItemsResize()}
           >

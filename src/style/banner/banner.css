@@ -8,7 +8,7 @@
 }
 
 .banner-cont {
-    position: fixed;
+    position: absolute;
     opacity: .8;
     width: 100%;
     height: 30vh;

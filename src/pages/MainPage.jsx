@@ -9,14 +9,16 @@ export default function MainPage() {
   };
 
 
+  const routeStage =
+  process.env.NODE_ENV === "development" ? "" : "/profile/#";
+
   return (
     <div>
       <div
             onClick={()=>{
-              window.location.href = "/about-me";
+              window.location.href = routeStage+ "/about-me";
             }}
         onMouseEnter={(e) => {
-          console.log(e.target.className);
           bannerLinkHoverEffect("about-me", "in");
         }}
         onMouseOut={(e) => {
@@ -35,7 +37,7 @@ export default function MainPage() {
           className="text-link t-shadow-basic about-me-text"
           style={{
             right: isMobile() ? "5vw" : "2vw",
-            bottom: isMobile() ? "53vh" : "58vh",
+            bottom: isMobile() ? "49vh" : "58vh",
             opacity: isMobile() ? 1 : 0.5,
           }}
         >
@@ -54,7 +56,7 @@ export default function MainPage() {
         <div
           className="my-proyects-cont links-cont"
           onClick={()=>{
-            window.location.href = "/my-proyects";
+            window.location.href =routeStage+ "/my-proyects";
           }}
           style={{
             opacity: isMobile()
@@ -67,7 +69,7 @@ export default function MainPage() {
           className="text-link t-shadow-basic my-proyects-text"
           style={{
             right: isMobile() ? "5vw" : "2vw",
-            bottom: isMobile() ? "18vh" : "22vh",
+            bottom: isMobile() ? "13vh" : "22vh",
             opacity: isMobile() ? 1 : 0.5,
           }}
         >
