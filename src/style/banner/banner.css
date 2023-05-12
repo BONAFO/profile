@@ -1,0 +1,54 @@
+
+
+
+.banner {
+    display: block;
+    background-color: transparent;
+    height: 30vh;
+}
+
+.banner-cont {
+    position: fixed;
+    opacity: .8;
+    width: 100%;
+    height: 30vh;
+    background-image: url("https://wallpaperaccess.com/full/1328841.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0vw 35%;
+    z-index: -1;
+}
+
+
+
+
+.motto-cont {
+text-align: center;
+}
+
+.motto {
+    font-family: 'Pacifico', cursive;
+    font-size: 5vh;
+}
+
+.motto-pt1 {
+    color: #ffffff;
+}
+
+.motto-pt2 {
+    margin: 0vh 0vw 0vh 10vw;
+    color: #f3c786;
+}
+
+.banner-menu{
+    display: flex;
+    background-color: #505050;
+}
+
+
+.banner-menu-item{
+    font-family: 'Titillium Web', sans-serif;
+    color: #b3cdd4;
+    background: rgb(117,186,185);
+    background: radial-gradient(circle, rgba(117,186,185,1) 0%, rgba(78,126,150,1) 51%);
+}

@@ -1,0 +1,39 @@
+.links-cont {
+    background-position: 0vw 50%;
+    height: 35vh;
+    width: 100%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity .3s;
+}
+
+
+.about-me-cont {
+    /* background-image: url("https://ovejeronoticias.cl/wp-content/uploads/2017/04/usuahia.jpg"); */
+    background-image: url("https://images.rove.me/w_1920,q_85/nkjttdftdrmznms50r92/patagonia-the-longest-night-in-the-world.jpg");
+
+}
+
+.my-proyects-cont {
+    background-image: url("https://thumbs.dreamstime.com/b/desktop-source-code-technology-background-developer-programer-coding-programming-wallpaper-computer-language-125215647.jpg");
+}
+
+
+
+
+.text-link {
+
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Pacifico', cursive; 
+    color: #8bb6c9;
+}
+
+
+.nartu {
+    color: #8bb6c9;
+}
+
